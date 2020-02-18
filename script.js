@@ -4,7 +4,7 @@ const body = document.querySelector("body");
 const h1=document.querySelector("h1");
 // h1.style.textDecoration="none";
 button.addEventListener("click",async function(){
-    const ans = await axios.get("http://api.icndb.com/jokes/random");
+    const ans = await axios.get("https://api.icndb.com/jokes/random");
     
     var img = document.createElement("img");
     img.value ='url("https://www.goodfreephotos.com/cache/vector-images/chuck-norris-cartoon-vector-clipart_800.png?cached=1522570600")';
