@@ -1,5 +1,5 @@
 const button = document.querySelector("button");
-const article = document.querySelector("article");
+const article = document.getElementById("joke");
 const body = document.querySelector("body");
 const h1=document.querySelector("h1");
 // h1.style.textDecoration="none";
@@ -7,7 +7,7 @@ button.addEventListener("click",async function(){
     const ans = await axios.get("http://api.icndb.com/jokes/random");
     
     var img = document.createElement("img");
-    img.value='url("chuck-norris-cartoon-vector-clipart_8001.png")';
+    img.value ='url("https://www.goodfreephotos.com/cache/vector-images/chuck-norris-cartoon-vector-clipart_800.png?cached=1522570600")';
     // img.style.cssText = `opacity:0.4`;
     // console.log(img);
     // // console.log(img.style);
